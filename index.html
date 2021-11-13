@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campañas</title>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="lib/L.Geoserver.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" ></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+
+
+    
+<body id="body">
+
+    <div class="lista__menu">
+        <h2>Selecciona una opcion</h2>
+        <ul>
+            <li><span>1</span>List Item Uno</li>
+            <li><span>2</span>List Item Dos</li>
+            <li><span>3</span>List Item Tres</li>
+            <li><span>4</span>List Item Cuatro</li>
+            <li><span>5</span>List Item Cinco</li>
+            <li><span>6</span>List Item Seis</li>
+        </ul>
+    </div>
+
+    <header>
+
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>
+        </div>
+      
+    </header>
+
+    <div class="menu__side" id="menu_side">
+
+        <div class="name__page">
+            <i class="fas fa-map-marked-alt"></i>
+            <h4>Campañas</h4>
+        </div>
+
+        <div class="options__menu">	
+
+            <a href="#" class="selected">
+                <div class="option">
+                    <i class="fas fa-house-user" title="Inicio"></i>
+                    <h4>Inicio</h4>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="option">
+                    <i class="fas fa-user" title="Usuario"></i>
+                    <h4>Usuario</h4>
+                </div>
+            </a>
+            
+            <a href="#">
+                <div class="option">
+                    <i class="fas fa-user-plus" title="Nuevo usuario"></i>
+                    <h4>Nuevo usuario</h4>
+                </div>
+            </a>
+
+            <a href="css/Lista.css"
+            >
+                <div class="option">
+                    <i class="fas fa-globe-americas" title="Distritos locales"></i>
+                    <h4>Distritos locales</h4>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="option">
+                    <i class="fas fa-globe" title="Distritos federales"></i>
+                    <h4>Distritos federales</h4>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="option">
+                    <i class="fas fa-sign-in-alt" title="Iniciar sesion"></i>
+                    <h4>Iniciar sesion</h4>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="option">
+                    <i class="fas fa-sign-out-alt" title="Cerrar Sesion"></i>
+                    <h4>Cerrar sesion</h4>
+                </div>
+            </a>
+
+        </div>
+        
+
+    </div>
+
+    <main>
+        <h1></h1><br>
+        <p></p> <br>
+        <div id ="map" ></div>
+        <p></p>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
